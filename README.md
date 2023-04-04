@@ -2,7 +2,7 @@
 
 This package provides an easy implementation of a Slider Button to cancel current transaction or screen. Highly customizable iphone alike looking widget
 
-# 1-Add the sqflite dependency in your pubspec.yaml file.
+# 1-Add the  slider_button dependency in your pubspec.yaml file.
 
 ```
 dependencies:
