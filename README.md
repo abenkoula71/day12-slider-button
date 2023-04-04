@@ -12,7 +12,7 @@ dependencies:
 # 2-Import the sqflite package in your dart file.
 
 ```
-import 'package:sqflite/sqflite.dart';
+import 'package:slider_button/slider_button.dart';
 ```
 
 # 3-Open a database by using the openDatabase() method. You can create a new database by specifying the database name, version, and a callback function that creates the necessary tables.
