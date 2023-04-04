@@ -6,7 +6,7 @@ This package provides an easy implementation of a Slider Button to cancel curren
 
 ```
 dependencies:
-  sqflite: ^2.0.0+3
+  slider_button: ^2.0.0
 ```
 
 # 2-Import the sqflite package in your dart file.
