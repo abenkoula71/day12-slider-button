@@ -18,26 +18,25 @@ import 'package:slider_button/slider_button.dart';
 # 3-Open a database by using the openDatabase() method. You can create a new database by specifying the database name, version, and a callback function that creates the necessary tables.
 
 ```
-final database = await openDatabase(
-    'my_database.db',
-    version: 1,
-    onCreate: (db, version) async {
-        await db.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)');
-    },
-);
+Center(child: SliderButton(
+      action: () {
+        ///Do something here
+        Navigator.of(context).pop();
+      },
+       label: Text(
+          "Slide to cancel Event",
+          style: TextStyle(
+              color: Color(0xff4a4a4a), fontWeight: FontWeight.w500, fontSize: 17),
+        ),
+      icon: Text(
+        "x",
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.w400,
+          fontSize: 44,
+        ),
+      ),
+
+
+    ));
 ```
-
-# 4-Perform CRUD operations using the database object. For example, to insert data into the users table, you can use the insert() method.
-
-
-```
-await database.insert('users', {'name': 'John Doe'});
-```
-
-# 5-Close the database by calling the close() method.
-
-```
-await database.close();
-```
-
-That's it! You can now use SQLite3 with Flutter by using the sqflite plugin.
