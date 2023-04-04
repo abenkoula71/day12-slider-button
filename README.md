@@ -9,7 +9,7 @@ dependencies:
   slider_button: ^2.0.0
 ```
 
-# 2-Import the sqflite package in your dart file.
+# 2-Import the  slider_button package in your dart file.
 
 ```
 import 'package:slider_button/slider_button.dart';
