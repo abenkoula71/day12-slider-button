@@ -1,6 +1,6 @@
 # Day12_slider_button_flutter
 
-To connect SQLite3 with Flutter, you can use the sqflite plugin. Here are the steps to connect SQLite3 with Flutter:
+This package provides an easy implementation of a Slider Button to cancel current transaction or screen. Highly customizable iphone alike looking widget
 
 # 1-Add the sqflite dependency in your pubspec.yaml file.
 
